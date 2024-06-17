@@ -210,7 +210,8 @@ const Crud = () => {
             <div className="grid grid-cols-2 w-1/2 gap-1">
               <button
                 type="submit"
-                className="flex items-center justify-start gap-2 border border-[#0000FF] rounded-md py-1 px-2 capitalize text-[#0000FF] font-bold hover:bg-[#0000FF] hover:text-white group/login transition-colors duration-300 delay-100 ease-in-out"
+                disabled={notification}
+                className={`flex items-center justify-start gap-2 border border-[#0000FF] rounded-md py-1 px-2 capitalize text-[#0000FF] font-bold hover:bg-[#0000FF] hover:text-white group/login transition-colors duration-300 delay-100 ease-in-out ${notification && "cursor-wait"} `}
               >
                 <IoIosSend className="text-[#0000FF] group-hover/login:text-white" />
                 submit

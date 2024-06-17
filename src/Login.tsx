@@ -29,7 +29,7 @@ const Login = () => {
         try {
           await signInWithEmailAndPassword(auth, email, password);
           await localStorage.setItem('email', email);
-          setMessage('You have successfully logged in');
+          setMessage('You have successfully login');
           setNotification(true);
           setTimeout(() => {
             setNotification(false);
