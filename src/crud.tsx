@@ -216,7 +216,7 @@ const Crud = () => {
                 submit
               </button>
               <Link
-                to={'/'}
+                to={'/dashboard'}
                 className="flex items-center justify-start gap-2 border border-[#0000FF] rounded-md py-1 px-2 capitalize text-[#0000FF] font-bold hover:bg-[#0000FF] hover:text-white group/login transition-colors duration-300 delay-100 ease-in-out"
               >
                 <MdCancelScheduleSend className="text-[#0000FF] group-hover/login:text-white" />
