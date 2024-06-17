@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .tbody > tr:nth-child(2n + 1) {
+    background-color: rgba(128, 128, 128, 0.3);
+    border: 1px solid gray;
+  }
+}
