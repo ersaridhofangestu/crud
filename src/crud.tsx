@@ -70,7 +70,7 @@ const Crud = () => {
                 date: date,
               });
               setNotification(true);
-              setMessage('Document succeeded in making');
+              setMessage('Document created successfully');
               setTimeout(() => {
                 setNotification(false);
                 navigate('/dashboard');
